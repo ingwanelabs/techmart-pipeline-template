@@ -11,6 +11,7 @@ target-version = "py311"
 [tool.pytest.ini_options]
 addopts = "-v"
 testpaths = ["tests"]
+pythonpath = ["src"]
 
 [tool.coverage.run]
 omit = ["*/__init__.py"]
