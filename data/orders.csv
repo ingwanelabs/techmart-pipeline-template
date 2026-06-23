@@ -1,0 +1,9 @@
+order_id,customer,price,order_date
+1,Alice Smith,149.99,2025-09-12
+2,Bob Jones,599.00,2025-10-03
+3,Carol White,75.50,2025-09-28
+4,Alice Smith,299.99,2025-11-14
+5,David Brown,1099.00,2025-12-01
+6,Eve Taylor,49.99,2026-01-08
+7,Bob Jones,849.00,2026-02-17
+8,Frank Wilson,199.99,2026-03-05
