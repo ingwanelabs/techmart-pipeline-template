@@ -40,11 +40,19 @@ pytest --cov=src --cov-report=term-missing
 ruff check .
 ```
 
+### Running the pipeline
+
+```bash
+pip install -e .
+python -m techmart data/orders.csv
+```
+
 ## Project Structure
 
 ```
 src/techmart/    the package - importable Python code
 tests/           the tests that check the package works
+data/            data directory (for files like orders.csv)
 pyproject.toml   project metadata and tool configuration (ruff, pytest, coverage)
 requirements.txt the packages this project needs
 .github/         the automation that runs on GitHub
